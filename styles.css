@@ -4,16 +4,17 @@ header img{
     padding: 10px;
 }
 
+
 nav{
     position: fixed;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     top: 0;
     left: 0;
     right: 0;
     height: 80px;
     display: flex;
     align-items: center;
-    box-shadow: 0 0 25px 0 black;
+    box-shadow: 0 0 5px 0 rgb(49, 87, 28);
 
 }
 
@@ -24,27 +25,30 @@ header nav a {
     font-weight: bold; /* Optional: makes the text bold */
     font-family: 'Pacifico', cursive;
 }
-main{
-    color: white;
+
+
+main {
+    height: 100vh; 
+    background-color: lightblue; 
 }
  
 h1{
     text-align: center;
 }
 
+
 body {
     text-align: left;
     height: 125vh;
     font-size: 20px;
-    background-color: darkolivegreen;
-    color: white;
-    background-image: url('https://img.freepik.com/free-vector/hand-drawn-olive-green-background_23-2149724861.jpg');
-    background-size: cover;
-    font-family: 'Lato', sans-serif;
-    margin-top: 80px;
+    color: black;
+    background-color: white ;
+    
+
+    font-family: 'Roboto';
+    margin-top: 24px;
     padding: 30px;
 }
 
-p{
-    font-family: 'Lato', sans-serif;
-}
+
+
